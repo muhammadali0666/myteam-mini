@@ -1,0 +1,135 @@
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/livvic-v11-latin-600.woff2') format('woff2'), 
+       url('../fonts/livvic-v11-latin-600.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/livvic-v11-latin-700.woff2') format('woff2'), 
+       url('../fonts/livvic-v11-latin-700.woff') format('woff'); 
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Livvic" sans-serif;
+  background-color: #004047;
+
+}
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-shrift {
+  color: #FFFFFF;
+  justify-content: center;
+  width: 920px;
+  height: 48px;
+  margin-left: 350px;
+  margin-top: 147px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+}
+.different-list {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.list-item {
+  
+ 
+  margin-right: 30px;
+  margin-top: 76px;
+  background-color: #012F34;
+  width: 350px;
+}
+
+  
+.site-img {
+  margin-top: 37px;
+  margin-right: 127px;
+  margin-left: 127px;
+  align-items: center;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+}
+.paragraph {
+  margin-top: 16px;
+  text-align: center;
+  color: #79C8C7;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+.text {
+  margin-bottom: 56px;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.next {
+  margin-top: 35px;
+  margin-bottom: 8px;
+}
+.extra-next {
+  width: 254px;
+  margin-right: 48px;
+  margin-left: 48px;
+}
+.mini-div {
+  margin-top: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.mini-img {
+  margin-right: 16px;
+  width: 24px;
+  height: 19px;
+}
+.item-img {
+  margin-left: 147px;
+  margin-bottom: -31px;
+  width: 56px;
+  height: 56px;
+}
+.item-img:hover {
+  transform: rotate(45deg);
+  opacity: 1;
+}
+.item-img-next {
+  margin-left: 147px;
+  margin-bottom: -81px;
+  width: 56px;
+  height: 56px;
+}
+.span {
+  width: 56px;
+  height: 56px;
+  background-color: red;
+  background-repeat: no-repeat;
+  
+}
